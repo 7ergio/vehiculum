@@ -1,0 +1,12 @@
+.idea
+*.log
+/*
+!.gitignore
+!themes/
+!mu-plugins/
+!html/
+
+/html/node_modules/
+/html/build/
+/html/yarn.lock
+/html/package-lock.json

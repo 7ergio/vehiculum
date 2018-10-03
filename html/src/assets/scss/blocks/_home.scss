@@ -1,4 +1,5 @@
 .best-deals {
+  display: flex;
   height: 460px;
   padding: 105px 0;
   background-image: url("../images/bg-top.jpg");
@@ -10,9 +11,55 @@
   .content {
     display: flex;
     flex-direction: column;
+    flex: 1;
   }
 }
 
 .best-deals__title {
+  font-size: $section-title-font-size;
+  font-weight: 600;
+  margin-top: 0;
+}
 
+.best-deals__subtitle {
+  font-size: $title-font-size;
+  font-weight: 400;
+}
+
+.best-deals__buttons-block {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.best-deals__button {
+  margin-right: 20px;
+  width: 295px;
+  padding: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+  border: 1px solid $white;
+  background: transparent;
+  text-align: center;
+
+  &:hover {
+    border: 1px solid $beige;
+    background: $beige;
+  }
+}
+
+.offer__top {
+  background: $black;
+  padding: 20px 0;
+  color: $white;
+}
+
+.offer__bottom {
+  height: 360px;
+  padding: 67px 0 100px;
+  background-image: url("../images/bg-bottom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

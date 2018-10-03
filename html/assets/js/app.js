@@ -1,1 +1,1 @@
-"use strict";jQuery(function(n){n(document).ready(function(){})});
+"use strict";jQuery(function(n){n(document).ready(function(){n(".dropdown-btn-js").click(function(e){e.preventDefault(),n(".header__dropdown").slideToggle(500)})})});
