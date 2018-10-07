@@ -37,6 +37,11 @@ a {
   }
 }
 
+.block-title {
+  font-size: $title-font-size;
+  font-weight: 600;
+}
+
 .content {
   max-width: 1270px;
   padding: 0 15px;

@@ -15,10 +15,21 @@ $black: #000;
 
 $gray: #e7e7e7;
 $gray-dark: #4f4f4f;
+$gray-slider: #efefef;
+$gray-brand: #7f7f7f;
 
 $white: #fff;
 
 $red: #fa454b;
+$red-dark: #d0021b;
 
 $beige: #cfb995;
 $beige-light: #f1eade;
+
+
+// RWD
+$desktop-big: ' only screen and (max-width:1600px)';
+
+$tablet-big: ' only screen and (max-width:1024px)';
+
+$mobile: ' only screen and (max-width:767px)';
